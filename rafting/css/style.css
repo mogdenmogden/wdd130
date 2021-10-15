@@ -1,22 +1,21 @@
 body {
-  background-color: #979996;
+  background-color: #f4f4f5;
   font-size: 1em;
   margin: 0px;
   padding: 0.5rem;
-  /* @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Quicksand:wght@300&display=swap"); */
-  /* font-family: "Oswald", sans-serif; */
 }
 header,
 footer {
   margin: 0 auto;
-  border: 1px solid #d3d4d3;
+  border: 1px solid #ffc864;
   padding: 0.5rem;
-  background-color: #d3d4d3;
+  background-color: #ffc864;
   display: grid;
   grid-template-columns: 200px 1fr;
   justify-content: left;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  color: #011627;
+  color: #002587;
   list-style-type: none;
 }
 
@@ -34,34 +33,35 @@ li {
 
 p {
   font-size: 1.2rem;
-  color: #5f0c16;
+  color: #434656;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
   font-size: 2em;
-  color: rgb(3, 88, 77);
-  font-family: "Quicksand", sans-serif;
+  color: #002587;
+  font-family: "IM Fell English SC", serif;
 }
 
 h2 {
   font-size: 1.5em;
-  color: #5f0c16;
-  font-family: "Quicksand", sans-serif;
+  color: #002587;
+  font-family: "Pacifico", cursive;
 }
 
 a:link {
-  color: rgb(0, 3, 201);
+  color: #002587;
 }
 a:visited {
-  color: rgb(78, 4, 121);
+  color: #b6003e;
 }
 a:hover {
-  color: rgb(0, 255, 255);
-  background-color: #979996;
+  color: #ffc864;
+  background-color: #002587;
 }
 a:active {
-  color: rgb(0, 255, 255);
-  background-color: #979996;
+  color: #ffc864;
+  background-color: #002587;
 }
 
 /* Class Selectors */
