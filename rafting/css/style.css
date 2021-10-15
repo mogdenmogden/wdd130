@@ -1,0 +1,102 @@
+body {
+  background-color: #979996;
+  font-size: 1em;
+  margin: 0px;
+  padding: 0.5rem;
+  /* @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Quicksand:wght@300&display=swap"); */
+  /* font-family: "Oswald", sans-serif; */
+}
+header,
+footer {
+  margin: 0 auto;
+  border: 1px solid #d3d4d3;
+  padding: 0.5rem;
+  background-color: #d3d4d3;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  justify-content: left;
+  font-size: 1rem;
+  color: #011627;
+  list-style-type: none;
+}
+
+ul {
+  display: table;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul,
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #5f0c16;
+}
+
+h1 {
+  font-size: 2em;
+  color: rgb(3, 88, 77);
+  font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #5f0c16;
+  font-family: "Quicksand", sans-serif;
+}
+
+a:link {
+  color: rgb(0, 3, 201);
+}
+a:visited {
+  color: rgb(78, 4, 121);
+}
+a:hover {
+  color: rgb(0, 255, 255);
+  background-color: #979996;
+}
+a:active {
+  color: rgb(0, 255, 255);
+  background-color: #979996;
+}
+
+/* Class Selectors */
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.hero_image {
+  width: 100%;
+  height: auto;
+}
+
+.example_image {
+  width: 500px;
+  height: auto;
+}
+
+.copyright {
+  width: 300px;
+}
+
+.social {
+  position: relative;
+  left: 425px;
+  width: 300px;
+}
+
+.social_logo {
+  width: 30px;
+  height: auto;
+}
