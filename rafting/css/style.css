@@ -1,20 +1,23 @@
 body {
   background-color: #f4f4f5;
   font-size: 1em;
+  line-height: normal;
   margin: 0px;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 2rem;
 }
 header,
 footer {
   margin: 0 auto;
   border: 1px solid #ffc864;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   background-color: #ffc864;
   display: grid;
   grid-template-columns: 200px 1fr;
   justify-content: left;
-  font-family: "Open Sans", sans-serif;
+  vertical-align: middle;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 1rem;
+  line-height: normal;
   color: #002587;
   list-style-type: none;
 }
@@ -31,22 +34,32 @@ li {
   padding: 10px;
 }
 
-p {
-  font-size: 1.2rem;
-  color: #434656;
-  font-family: "Open Sans", sans-serif;
-}
-
 h1 {
-  font-size: 2em;
+  font-size: 3em;
+  line-height: normal;
+  text-align: center;
   color: #002587;
-  font-family: "IM Fell English SC", serif;
+  font-family: "IM Fell English SC", serif, Impact, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.8em;
+  line-height: normal;
   color: #002587;
-  font-family: "Pacifico", cursive;
+  font-family: "Pacifico", cursive, Impact, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: normal;
+  color: #434656;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 a:link {
@@ -84,19 +97,32 @@ a:active {
 .example_image {
   width: 500px;
   height: auto;
-}
-
-.copyright {
-  width: 300px;
+  box-shadow: 0.5px 0.5px 2px #002587;
 }
 
 .social {
-  position: relative;
-  left: 425px;
-  width: 300px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin: auto;
+  padding: 20px 10px 10px;
+}
+
+.copyright {
+  width: 500px;
+  margin: 10px;
+}
+
+.pfoot1 {
+  width: max-content;
+  margin: 10px;
 }
 
 .social_logo {
+  position: relative;
   width: 30px;
   height: auto;
+  vertical-align: middle;
+  padding: 5px;
 }
