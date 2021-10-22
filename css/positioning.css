@@ -142,7 +142,7 @@
   justify-self: start; /*added this*/
 }
 .red5 {
-  width: 1fr; /*changed this*/
+  width: 600px; /*changed this*/
   height: 100px; /*changed this*/
   background-color: red;
 }
@@ -155,14 +155,14 @@
   margin-bottom: 10px; /*added this*/
 }
 .yellow5 {
-  /*width: 1fr; changed this*/
+  width: 585px; /*changed this*/
   /*height: 300px; changed this*/
   background-color: gold;
-  padding: 15px; /*added this*/
-  font-size: 1.5vw; /*added this*/
+  padding: 15px 0px 15px 15px; /*added this*/
+  font-size: 1vw; /*added this*/
 }
 .blue5 {
-  width: 1fr; /*changed this*/
+  width: 600px; /*changed this*/
   height: 100px; /*changed this*/
   background-color: blue;
 }
