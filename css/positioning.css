@@ -158,7 +158,7 @@
   /* width: 585px; changed this */
   /*height: 300px; changed this*/
   background-color: gold;
-  padding: 15px 0px 15px 15px; /*added this*/
+  padding: 15px; /*added this*/
   /* font-size: 10pt; added this */
 }
 .blue5 {
