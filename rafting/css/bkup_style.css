@@ -3,34 +3,38 @@ body {
   font-size: 1em;
   line-height: normal;
   margin: 0px;
-  padding: 0px;
-  /* width: 960px; */
-  box-sizing: border-box;
+  padding: 0.5rem 0.5rem 2rem;
 }
-
 header {
   margin: 0 auto;
-  border: 0px solid #ffc864;
+  border: 1px solid #ffc864;
   padding: 1rem 0.5rem;
   background-color: #ffc864;
   display: grid;
   grid-template-columns: 200px 1fr;
   justify-content: right;
-  align-items: center;
+  vertical-align: middle;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: normal;
   color: #002587;
   list-style-type: none;
-  width: auto;
 }
 
-.logo {
-  width: 100%;
-  height: auto;
+footer {
+  margin: 0 auto;
+  border: 1px solid #ffc864;
+  padding: 1rem 0.5rem;
+  background-color: #ffc864;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  justify-content: left;
   vertical-align: middle;
-  border: 0px;
-  border-radius: 12px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: normal;
+  color: #002587;
+  list-style-type: none;
 }
 
 ul {
@@ -41,7 +45,6 @@ ul {
 
 li {
   flex: 1 1 auto;
-  display: block;
   padding: 10px;
   text-align: center;
   text-decoration: none;
@@ -49,49 +52,18 @@ li {
 }
 
 main {
-  width: auto;
   display: grid;
-  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-  grid-gap: 20px;
-  margin-top: 20px;
-}
-
-.top_banner {
-  grid-column: 1/3;
-  grid-row: 1/2;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  position: relative;
-  width: 100%;
-}
-
-.hero_image {
-  width: 960px;
-  height: auto;
-  grid-column: 1/3;
-  grid-row: 1/2;
-  z-index: -1;
+  grid-template: 4/2;
 }
 
 button {
-  width: auto;
-  height: auto;
-  font-size: 2.5em;
+  font-size: 3em;
+  line-height: normal;
   text-align: center;
-  color: #f4f4f5;
-  border: 0px;
-  border-radius: 12px;
+  color: #002587;
   font-family: "IM Fell English SC", serif, Impact, Haettenschweiler,
     "Arial Narrow Bold", sans-serif;
-  /* float: left; */
-  /*align-self: center; vertical centering*/
-  /*justify-self: center; horizontal centering*/
-  /* grid-column: 1/3;
-  grid-row: 1/2; */
-  position: absolute;
-  top: 120px;
-  left: 395px;
-  background-color: #43465681;
+  float: left;
 }
 
 h2 {
@@ -102,7 +74,6 @@ h2 {
     "Arial Narrow Bold", sans-serif;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  text-align: center;
 }
 
 p {
@@ -112,32 +83,6 @@ p {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   margin-top: 0px;
   padding-top: 0px;
-}
-
-.relax {
-  /* width: 50%; */
-}
-
-.relax_image {
-  width: 470px;
-  height: 300px;
-  object-fit: cover;
-  object-position: center 80%;
-}
-
-.rush {
-  /* width: 50%; */
-}
-
-.rush_image {
-  width: 470px;
-  height: 300px;
-  object-fit: cover;
-  align-content: center;
-}
-
-.invitation {
-  grid-column: 1/3;
 }
 
 a:link {
@@ -159,26 +104,21 @@ a:active {
   text-decoration: none;
 }
 
-footer {
-  margin: 0 auto;
-  border: 0px solid #ffc864;
-  padding: 1rem 0.5rem;
-  background-color: #ffc864;
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  justify-content: left;
-  vertical-align: middle;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  line-height: normal;
-  color: #002587;
-  list-style-type: none;
-}
-
 /* Class Selectors */
 .page {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.hero_image {
+  width: 100%;
+  height: auto;
 }
 
 .example_image {

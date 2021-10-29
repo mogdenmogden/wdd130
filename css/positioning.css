@@ -139,7 +139,7 @@
 .content5 {
   /* Activity Five Container */
   /* height: 600px; changed this */
-  justify-self: start; /*added this*/
+  justify-self: start; /*added this */
 }
 .red5 {
   width: 600px; /*changed this*/
