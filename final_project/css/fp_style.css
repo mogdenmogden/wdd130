@@ -7,6 +7,25 @@ header {
   width: auto;
 }
 
+main{
+  width: 1080px;
+}
+
+.images {
+  display: grid;
+  grid-template: repeat(1, .3fr) / repeat(2, .3fr);
+  
+  
+}
+
+.pic {
+  height: 200px;
+  align-items: center;
+
+  
+}
+
+
 .color_ul {
   list-style-type: none;
 }
