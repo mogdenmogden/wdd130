@@ -155,6 +155,11 @@ button {
   grid-row: 4/5;
   display: grid;
   justify-items: center;
+  size: 200%;
+}
+
+.spec_img{
+  width: 40%;
 }
 
 .spec_text{
