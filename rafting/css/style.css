@@ -251,9 +251,7 @@ p , .call_us , .learn_more, .address_box {
   background-color: #f4f4f5;
 }
 
-.relax {
-  /* width: 50%; */
-}
+
 
 .relax_image {
   width: 470px;
@@ -262,9 +260,7 @@ p , .call_us , .learn_more, .address_box {
   object-position: center 80%;
 }
 
-.rush {
-  /* width: 50%; */
-}
+
 
 .rush_image {
   width: 470px;
