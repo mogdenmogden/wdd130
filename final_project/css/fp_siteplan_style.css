@@ -17,7 +17,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
 }
 
-.font1, .font2, .text1, .color1, .color2, .color3, .color4, .accent1, .accent2, .accent3, bkgrnd{
+.font1, .font2, .text1, .color1, .color2, .color3, .color4, .accent1, .accent2, .accent3, .bkgrnd{
     font-size: xx-large;
 }
 .color1{color: #15616d;}
@@ -27,4 +27,4 @@ main{
 .accent1{color:#e63946}
 .accent2{color:#a8dadc}
 .accent3{color:#5f0f40}
-.bkgrnd{color:#f1faee}
+.bkgrnd{color:#f1faee; background-color: lightgray;}
