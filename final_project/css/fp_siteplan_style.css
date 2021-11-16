@@ -1,0 +1,30 @@
+body {
+    
+    color: #001524 ;
+    
+  }
+
+main{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+
+
+.images, .pic{
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.font1, .font2, .text1, .color1, .color2, .color3, .color4, .accent1, .accent2, .accent3, bkgrnd{
+    font-size: xx-large;
+}
+.color1{color: #15616d;}
+.color2{color: #368f8b}
+.color3{color: #ff7d00}
+.color4{color:#78290f}
+.accent1{color:#e63946}
+.accent2{color:#a8dadc}
+.accent3{color:#5f0f40}
+.bkgrnd{color:#f1faee}
