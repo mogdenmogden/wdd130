@@ -13,7 +13,6 @@ header {
   justify-content: right;
   align-items: center;
   font-family: 'Open Sans', sans-serif, Arial;
-  
   font-size: 1.5rem;
   line-height: normal;
   color: #002587;
@@ -91,8 +90,8 @@ button {
   color: #f4f4f5;
   border: 0px;
   border-radius: 12px;
-  font-family: 'IM Fell English SC', serif, 'Arial Narrow Bold';
-  font-size: 1.25rem;
+  font-family: 'IM Fell English SC', serif,
+    "Arial Narrow Bold", sans-serif;
   grid-column: 1/3;
   grid-row: 1/2; 
   position: absolute;
@@ -130,7 +129,6 @@ button {
   background-color: #002587;
   color: #f4f4f5;
   font-family: 'Open Sans', sans-serif, Arial;
-  font-size: 1.25rem;
   text-align: center;
   vertical-align: middle;
   position: relative;
@@ -139,11 +137,18 @@ button {
 
 .tour_name,.tour_teas, .read_more{
   font-family: 'Open Sans', sans-serif, Arial;
-  font-size: 1.25rem;
   margin: 5px;
   text-align: center;
 }
 
+/* .tour_name{
+  font-size: x-large;
+  font-weight: bolder;
+} */
+
+/* .tour_teas{
+  font-size: small;
+} */
 
 .spec_tours{
   grid-row: 4/5;
@@ -164,7 +169,6 @@ button {
   z-index: 2;
   font-family: 'Open Sans', sans-serif, Arial;
   font-size: 1.25rem;
-  font-size: 1.25rem;
   background-color: #434656d2;
   border: 0px;
   border-radius: 12px;
@@ -180,7 +184,8 @@ h1 {
   font-size: 1.8em;
   line-height: normal;
   color: #002587;
-  font-family: 'Pacifico', cursive, 'Arial Narrow Bold';
+  font-family: 'Pacifico', cursive,
+    "Arial Narrow Bold", sans-serif;
   margin-bottom: 0px;
   padding-bottom: 0px;
   text-align: center;
@@ -190,7 +195,6 @@ p , .call_us , .learn_more, .address_box {
   line-height: normal;
   color: #434656;
   font-family: 'Open Sans', sans-serif, Arial;
-  font-size: 1.25rem;
   margin: 1%;
   text-align: center;
 }
@@ -298,7 +302,6 @@ footer {
   grid-template-columns: 200px 1fr;
   justify-content: left;
   font-family: 'Open Sans', sans-serif, Arial;
-  font-size: 1.25rem;
   font-size: 1rem;
   line-height: normal;
   color: #002587;
