@@ -23,7 +23,6 @@ header {
 .logo {
   width: 100%;
   height: auto;
-  vertical-align: middle;
   border: 0px;
   border-radius: 12px;
 }
@@ -47,7 +46,7 @@ main {
   width: auto;
   display: grid;
   margin-top: 20px;
-  grid-row: auto;
+  
 }
 
 .top_banner {
@@ -143,19 +142,20 @@ button {
   text-align: center;
 }
 
-.tour_name{
-  font-size: medium;
-}
+/* .tour_name{
+  font-size: x-large;
+  font-weight: bolder;
+} */
 
-.tour_teas{
+/* .tour_teas{
   font-size: small;
-}
+} */
 
 .spec_tours{
   grid-row: 4/5;
   display: grid;
   justify-items: center;
-  size: 200%;
+  
 }
 
 .spec_img{
@@ -193,10 +193,11 @@ h1 {
 }
 
 p , .call_us , .learn_more, .address_box {
-  font-size: 1.2rem;
   line-height: normal;
   color: #434656;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin: 1%;
+  text-align: center;
 }
 
 .contact_boxes{
@@ -221,6 +222,7 @@ p , .call_us , .learn_more, .address_box {
   margin-right: 25px;
   top: -60px;
   padding: 24px 30px;
+  min-height: 230px;
 }
 
 .address_box{
@@ -232,13 +234,13 @@ p , .call_us , .learn_more, .address_box {
   margin-bottom: 24px;
 }
 
-.l1_contact{ 
+.l1_contact,.tour_name{ 
   font-size: x-large;
   font-weight: bolder;
   margin-bottom: 12px;
 }
-.l2_contact{
-  font-size: x-small;
+.l2_contact, .tour_teas{
+  font-size: small;
   margin-bottom: 12px;
 }
 .l3_contact{
@@ -279,8 +281,8 @@ a:link {
 }
 a:visited {
   color: #b6003e;
-  text-decoration: none;
 }
+
 a:hover {
   color: #ffc864;
   background-color: #002587;
@@ -300,7 +302,6 @@ footer {
   display: grid;
   grid-template-columns: 200px 1fr;
   justify-content: left;
-  vertical-align: middle;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: normal;
@@ -314,11 +315,6 @@ footer {
   margin: 0 auto;
 }
 
-.example_image {
-  width: 500px;
-  height: auto;
-  box-shadow: 0.5px 0.5px 2px #002587;
-}
 
 .social {
   width: auto;
