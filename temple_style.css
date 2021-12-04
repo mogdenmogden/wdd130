@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+
+
+
+.card{
+    background: white;
+    width: 400px;
+    height: 55vh;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.301);
+}
+
+.card_image{
+    background-color: grey;
+    height: 26vh;
+    background-size: cover;
+    border-radius: 20px 20px 0 0 ;
+    border-bottom: .9em lightgrey solid;
+    background-image: url('images/400x323px_provo_temple_lds.jpg');
+    margin-bottom: -3em;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.8em;
+}
+h2, p, footer{
+    padding: 0 15px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-variant: small-caps;
+    font-size: .8em;
+    height: 1.2em;
+    
+}
+
+.detail_button, .detail_button:any-link{
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(211, 211, 211, 0.356);
+    color: black;
+    border-color: darkgray;
+    border-width: 1px;
+    border-style: solid;
+    font-variant:normal;
+    text-decoration: none;
+    height: 1.8em;
+    font-weight: bold;
+    vertical-align:text-bottom;
+
+}
+
+.like_button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -37%;
+    right: -81%;
+    z-index: 1;
+    width: 2.5em;
+    height: 2.5em;   
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 1.2em;
+}
+
+.like_button:hover {
+    background-color: rgb(212, 0, 0);
+    transform: scale(1.2);
+}
+
+.detail_button:hover {
+    filter:invert(1);
+    
+}
