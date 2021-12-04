@@ -47,55 +47,69 @@ header {
 main{
   width: auto;
   margin: 1rem;
-  display: grid;
-  grid-template-columns: 80% 20%;
-  
+  display: flex;
 }
 
-.intro{
-  max-width: 80%;
+
+h1{
+  margin: 0 0 1rem 0;
 }
 
 aside{
   float:right;
-  margin: 1rem;
-  
-  
+  min-width: 300px;
+}
+
+.safety_stuff{
+  margin: 0 15px 0 0;
 }
 
 .profile_row{
+  grid-column: 1/3;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  
-  
+  grid-template-columns: auto auto auto;  
+  max-width: 1080px;
 }
 
+h4{
+  margin: 5px 0 0 0;
+}
 
 .gallery{
   display: grid;
-  grid-template-columns: repeat(6,1fr);
-  grid-template-rows: repeat(6,1fr);
+  position: relative;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-auto-flow: dense;
+  margin: 5px;
 }
 
-.gallery_big{
-  column-span: 2;
-  max-width: 200px;
+.g_big, .g_big img{
+  width: 200px;
+  position: relative;
+  margin: 5px;
+  
 }
 
-.gallery_sma{
-  column-span: 1;
-  max-width: 100px;
+.profile_pic{
+  align-self: center;
+}
+.profile_pic, .g_sma, .g_sma img{
+  width: 100px;
+  position: relative;
+  margin: 5px;
+
 }
 
 .story{
-  border: #a8dadc;
-  font-size: 1em;
+  font-size: 1rem;
+  margin: 0;
 }
 
-.bullets{
-  float:right;
-  margin: 1rem;
-  font-size: 1.2rem;
+ul .story{
+  list-style-type: circle;
+  position: relative;
+  left: -15px;
 }
 
 
