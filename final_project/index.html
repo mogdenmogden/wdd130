@@ -19,27 +19,61 @@
     />
   </head>
   <body>
-      <a class="home_nav" href="../final_project/index.html" title="Home">Home</a>
-      <header>
-          <nav class="head_nav">
-            <a class="gallery_nav" href="../final_project/gallery.html" title="Gallery">Gallery</a>
-            <a class="profiles_nav" href="../final_project/profiles.html" title="Profiles">Profiles</a>
-            <a class="care_nav" href="../final_project/safety.html" title="Safety, Sharpening, & Care">Safety, Sharpening, & Care</a>
+    <header>
+      <nav class="head_nav">
+            <a class="home_nav" href="/final_project/index.html" title="Home">Home</a>
+            <a class="gallery_nav" href="/final_project/gallery.html" title="Gallery">Gallery</a>
+            <a class="profiles_nav" href="/final_project/profiles.html" title="Profiles">Profiles</a>
+            <a class="care_nav" href="/final_project/safety.html" title="Safety, Sharpening, & Care">Safety, Sharpening, & Care</a>
           </nav>
       </header>
-      <main>
+      <main class="main_home">
         <section class="intro">
             <h1>Introduction</h1>
             <p>I've liked knives since I received my first pocket knife as a Cub Scout on my 8th birthday.  Over the years I have casually collected many knives.  Some were gifts, others purchased or found.  Each knife has a story behind it.  I want to tell their stories.  I will showcase my favorite knives and tell you what I like about each.<br/>Would you like to see a few?</p>
         </section>
-        <aside>
+        <aside class="aside_home">
             <h1>Profile Links</h1>
             <ul >
-                <li>link1</li>
-                <li>link2</li>
-                <li>link3</li>
-            </ul>
+                <li class="li_home"><a href="/final_project/profiles.html#first_knife">My First Knife</a></li>
+                <li class="li_home"><a href="/final_project/profiles.html#brasil">Brazilian Souvenir</a></li>
+                <li class="li_home"><a href="/final_project/profiles.html#firstbuy">First Purchase for Myself</a></li>
+                <li class="li_home"><a href="/final_project/profiles.html#forged">Forged By Me</a></li>
+                <li class="li_home"><a href="/final_project/profiles.html#huntkit">Hunting Knife from a Kit</a></li>
+                <li class="li_home"><a href="/final_project/profiles.html#rusty"">Restored Hunting Knife</a></li>
+                <li class="li_home"><a href="/final_project/profiles.html#newest">My Latest</a></li>
+                <li class="li_home"><a href="/final_project/profiles.html#machete">Watermelon Slicer</a></li>
+                <li class="li_home"><a href="/final_project/profiles.html#pioneer">Swiss Army Pioneer</a></li>
+              </ul>
         </aside>
+        <form action="/my-handling-form-page" method="post">
+            <fieldset>
+                <legend>Would you like give your opinion in the debate on fixed blades vs. folders? Let your voice be heard here!</legend>
+
+            <ul class="form_list">
+                <li>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="sub_name" value="Inigo Montoya">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="sub_email" value="inigo.montoya@dreadpirateroberts.org">
+                </li>
+                <li>
+                    <label for="msg">Tell me about your favorite knife!</label>
+                    <textarea id="msg" name="your_favorite">Do you prefer folders or fixed blades?
+                    </textarea>
+                </li>
+                <li class="button">
+                    
+                    <button type="submit">
+                        My opinion counts!
+                    </button>
+                </li>
+                  
+            </ul>
+            </fieldset>        
+        </form>
       </main>
       <footer>
         &copy; Matt Ogden, 2021
