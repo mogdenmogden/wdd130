@@ -1,6 +1,6 @@
 body {
     
-    color: #001524 ;
+    color:  rgb(191, 191, 212);
     
   }
 
@@ -24,9 +24,9 @@ main{
 .color2{color: #368f8b}
 .color3{color: #ff7d00}
 .color4{color:#78290f}
-.accent1{color:#e63946}
-.accent2{color:#a8dadc}
+.accent1{color:#b61421}/*#e63946*/
+.accent2{color:#001524}
 .accent3{color:#5f0f40}
-.bkgrnd{color:#f1faee; background-color: lightgray;}
+.bkgrnd{color:rgb(218, 218, 240); background-color: lightgray;}
 
 
