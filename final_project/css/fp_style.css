@@ -110,8 +110,6 @@ h1{
   padding: 0.5rem;
   max-width: 20vw;
 }
-
-
 .profile_row a{position:absolute; top: -18rem;}
 .profile_row{
   grid-column: 1/5;
@@ -156,8 +154,8 @@ h4{
   font-size: 1.2rem;
   color: #e63946;
 }
-.safety_stuff{
-  
+.safety_stuff:link{
+  background-color: #e63946;
 }
 .sharpening{
   grid-column: 1/3;
