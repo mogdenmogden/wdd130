@@ -8,11 +8,9 @@ body {
   /* width: 1080px; */
   width: 80vw; /*ok*/
 }
-
 header {
   width: inherit;
 }
-
 .head_nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -26,7 +24,6 @@ header {
   width: inherit;
   z-index: 1;
 }
-
 .home_nav, .gallery_nav, .profiles_nav, .care_nav {
   text-decoration: none;
   padding: 1rem;
