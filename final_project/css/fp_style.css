@@ -41,22 +41,22 @@ header {
 .home_nav{
   grid-column: 1/5;
   grid-row: 1/2;
-  background-image: url("/final_project/fp_images/machete_144547.png");
+  background-image: url("../fp_images/machete_144547.png");
   background-position: center;
 }
 .gallery_nav, .care_nav{
   grid-row: 2/3;
 }
 .gallery_nav{
-  background-image: url("/final_project/fp_images/swisspioneer_145503.png");
+  background-image: url("../fp_images/swisspioneer_145503.png");
   background-position: right 15% top 60%;
 }
 .profiles_nav{
-  background-image: url("/final_project/fp_images/latestpurchase_151058.png");
+  background-image: url("../fp_images/latestpurchase_151058.png");
   background-position: center;
 }
 .care_nav{
-  background-image: url("/final_project/fp_images/hunterrefurbished_150801.png");
+  background-image: url("../fp_images/hunterrefurbished_150801.png");
   background-position: center;
 }
 .sharpening
@@ -83,7 +83,7 @@ main{
 }
 h1{
   margin: 0.5rem 0 0.5rem 0;
-  font-size: 3rem;
+  font: 3rem Open Sans;
 }
 .li_home{
   margin: 0 0 0 2rem;
@@ -172,7 +172,7 @@ li.li_home::marker{
 }  
 h4{
   margin: .2rem;
-  font-size: 3rem;
+  font: 3rem Open Sans;
 }
 .profile_bullets{
   padding: .2rem .2rem 1rem .2rem;
@@ -207,8 +207,11 @@ h4{
   margin: 1rem auto auto auto;
   padding: 0.2rem;
 }
+.h2_safe{
+  font: 3rem Open Sans;
+}
 .h3_safe{
-  font-size: 1.6rem;
+  font: 2rem Open Sans;
 }
 .ul_safe{
   list-style-type: circle;
