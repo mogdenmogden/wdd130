@@ -40,8 +40,11 @@ header {
   grid-row: 2/4;
 }
 .profiles_nav {
-  grid-column: 2/4;
+  grid-column: 2/3;
   grid-row: 2/4;
+}
+.care_nav{
+  grid-column: 3/5;
 }
 main{
   width: inherit;
@@ -106,6 +109,9 @@ h1{
   color: #0e0a36;
   padding: 0.5rem;
   max-width: 20vw;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
 }
 .profile_row a{position:absolute; top: -18rem;}
 .profile_row{
