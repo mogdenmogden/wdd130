@@ -41,22 +41,22 @@ header {
 .home_nav{
   grid-column: 1/5;
   grid-row: 1/2;
-  background-image: url(fp_images/machete_144547.png);
+  background-image: url(/fp_images/machete_144547.png);
   background-position: center;
 }
 .gallery_nav, .care_nav{
   grid-row: 2/3;
 }
 .gallery_nav{
-  background-image: url(fp_images/swisspioneer_145503.png);
+  background-image: url(/fp_images/swisspioneer_145503.png);
   background-position: right 15% top 60%;
 }
 .profiles_nav{
-  background-image: url(fp_images/latestpurchase_151058.png);
+  background-image: url(/fp_images/latestpurchase_151058.png);
   background-position: center;
 }
 .care_nav{
-  background-image: url(fp_images/hunterrefurbished_150801.png);
+  background-image: url(/fp_images/hunterrefurbished_150801.png);
   background-position: center;
 }
 .sharpening
