@@ -1,0 +1,28 @@
+.accordion{
+    margin: .2rem;
+    padding: 1rem;
+    width: 100%;
+    font: 3rem Open Sans;
+    color: white;
+    background-color: #b61421;
+    cursor: pointer;
+    text-align: left;
+    border: 1px white;
+    transition: .65s;
+}
+.panel{
+    margin: .2rem;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.6rem;
+    background-color: aquamarine;
+    /* display: none; */
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+p{
+    font-size: 1.6rem;
+    margin: .2rem;
+    padding: 1rem;
+}
