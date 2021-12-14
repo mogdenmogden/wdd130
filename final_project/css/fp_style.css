@@ -1,6 +1,6 @@
 body {
   justify-content: center;
-  font-size: 3em; /*I want 2em. */
+  font-size: 2.2em; /*I want 2em. */
   background-color: #011936;
   color: #c2eabd;
   margin: 1rem 0;
@@ -25,7 +25,7 @@ header {
   background-color: #011936;
   /* box-shadow: -10px 0 10px rgba(0, 0, 0, 0.301); */
   width: 95vw;
-  z-index: 1;
+  z-index: 2;
 }
 .home_nav, .gallery_nav, .profiles_nav, .care_nav {
   text-decoration: none;
@@ -73,7 +73,7 @@ main{
   width: 95vw;
   background-color: #011936;
   padding: 3rem 1rem;
-  margin: 360px 0 0.5rem 0; /*this controls the top distance from the nav section*/
+  margin: 380px 0 0.5rem 0; /*this controls the top distance from the nav section*/
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 1rem;
@@ -120,20 +120,24 @@ li.li_home::marker{
 }
 .gal img{
   /* max-width: 20vw; */
+  width: 30vw;
   padding: 0.5rem 0.5rem 0 0.5rem;
   /* margin: 1rem; */
   background-color: white;
   z-index: -1;
 }
 .gal:hover{
+  z-index: 1;
   transform: scale(1.25);
   transition-duration: 650ms;
 }
 .profile_pic:hover{
-  transform: scale(1.25, 1.25);
-  transition-duration: 650ms;
-  transform-origin: top left;
-  z-index: 1;
+  /* transform: rotateY(360deg); */
+  transform: scale(1.4, 1.4) ;
+  transition-duration: 350ms;
+  /* transform-origin: top left; */
+  z-index: 0;
+  
 }
 .label_gallery{
   background-color: white;
