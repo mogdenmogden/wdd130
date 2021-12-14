@@ -1,6 +1,6 @@
 body {
   justify-content: center;
-  font-size: 2.2em; /*I want 2em. */
+  font-size: 2.2em; 
   background-color: #011936;
   color: #c2eabd;
   margin: 1rem 0;
@@ -10,9 +10,7 @@ body {
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.301);
   
 }
-header {
 
-}
 .head_nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -23,7 +21,6 @@ header {
   position: fixed;
   top: 0;
   background-color: #011936;
-  /* box-shadow: -10px 0 10px rgba(0, 0, 0, 0.301); */
   width: 95vw;
   z-index: 2;
 }
@@ -43,22 +40,23 @@ header {
 .home_nav{
   grid-column: 1/5;
   grid-row: 1/2;
-  background-image: url("../fp_images/machete_144547.png");
+  background-image: url("../fp_images/machete_3.webp");
   background-position: center;
+  background-size: 1fr;
 }
 .gallery_nav, .care_nav{
   grid-row: 2/3;
 }
 .gallery_nav{
-  background-image: url("../fp_images/swisspioneer_145503.png");
+  background-image: url("../fp_images/swisspioneer_2.webp");
   background-position: right 15% top 60%;
 }
 .profiles_nav{
-  background-image: url("../fp_images/latestpurchase_151058.png");
+  background-image: url("../fp_images/latestpurchase_2.webp");
   background-position: center;
 }
 .care_nav{
-  background-image: url("../fp_images/hunterrefurbished_150801.png");
+  background-image: url("../fp_images/hunterrefurbished_2.webp");
   background-position: center;
 }
 .sharpening
@@ -73,7 +71,7 @@ main{
   width: 95vw;
   background-color: #011936;
   padding: 3rem 1rem;
-  margin: 380px 0 0.5rem 0; /*this controls the top distance from the nav section*/
+  margin: 280px 0 0.5rem 0; /*this controls the top distance from the nav section*/
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 1rem;
@@ -117,6 +115,7 @@ li.li_home::marker{
   margin: 3px 3px 3px 3px;
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.301);
   background-color: white;
+  text-decoration: none;
 }
 .gal img{
   /* max-width: 20vw; */
@@ -144,13 +143,14 @@ li.li_home::marker{
   text-align: center;
   position: relative;
   top: -1.6rem;
-  font: 32px Pacifico;
-  text-decoration: none;
+  font: 3rem Pacifico;
   color: #0a0188;
   padding: 0.5rem;
   overflow: hidden;
 }
-.profile_row a{position:absolute; top: -18rem;}
+.profile_row a{
+  position:absolute; top: -20rem;/**/
+}  
 .profile_row{
   grid-column: 1/5;
   display: grid;
@@ -234,7 +234,7 @@ h4{
 }
 .knifecare{
   grid-column: 3/5;
-  /* border-left: 5px solid #ff8600; */
+
 }
 footer{
   margin: 1rem 0;
@@ -242,9 +242,7 @@ footer{
   padding: 1rem;
   margin: 0.5rem 0;
 }
-legend{
 
-}
 fieldset{
   border: solid;
   border-color: #ff8600;
@@ -272,12 +270,12 @@ box-sizing: border-box;
 border: 1px solid #ff8600;
 font: 2rem Open Sans;
 padding: 0.3em;
-color: lightgray;
+color: #ff8600;
 }
 input:focus,
 textarea:focus {
 background-color: #f1f7f0;
-color: #c2eabd;
+color: #0a0188;
 }
 textarea {
 vertical-align: top;
@@ -298,7 +296,8 @@ form li + li {
 button {
   padding: 1em;
   width: 40%;
-  font-size: 0.8em;
+  font-size: 1em;
+  color: #0a0188;
   text-transform: capitalize;
   justify-self: center;
   transition-duration: 350ms;
