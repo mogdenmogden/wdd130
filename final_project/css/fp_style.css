@@ -33,7 +33,7 @@ body {
   color: white;
   font: 2em Open Sans;
   text-shadow: 3px 3px 6px #000000;
-  background-color: #ff8600;
+  background-color:#ff8600;
   background-blend-mode: hard-light;
   background-size: cover;
 }
@@ -42,7 +42,6 @@ body {
   grid-row: 1/2;
   background-image: url("../fp_images/machete_3.webp");
   background-position: center;
-  background-size: 1fr;
 }
 .gallery_nav, .care_nav{
   grid-row: 2/3;
@@ -75,7 +74,6 @@ main{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 1rem;
-  /* box-shadow: -10px 0 10px rgba(245, 208, 208, 0.301); */
 }
 
 .intro{
@@ -110,7 +108,6 @@ li.li_home::marker{
   grid-column: 1/5;
   justify-items: center;
   align-items: center;
-  /* padding: 3rem 0; */
 }
 .gal {
   margin: 3px 3px 3px 3px;
@@ -119,12 +116,9 @@ li.li_home::marker{
   text-decoration: none;
 }
 .gal img{
-  /* max-width: 20vw; */
   width: 30vw;
   padding: 0.5rem 0.5rem 0 0.5rem;
-  /* margin: 1rem; */
   background-color: white;
-  z-index: -1;
 }
 .gal:hover{
   z-index: 1;
@@ -143,7 +137,6 @@ li.li_home::marker{
 }
 .anchor{
   display: block;
-  position: relative;
   top: -330px;
   visibility: hidden;
 }
@@ -157,10 +150,10 @@ li.li_home::marker{
   position: relative;
 }
 .profile_row a{
-  position:absolute; /*top: -20rem;*/
+  position:absolute; 
 }  
 .profile_pic{
-  position: relative; /*top: 20rem;*/
+  position: relative; 
   max-width: 15vw;
   padding: .5rem;
   margin: 1rem 0 0 0;
@@ -170,10 +163,8 @@ li.li_home::marker{
   grid-row: 1/2;
 }
 .profile_pic:hover{
-  /* transform: rotateY(360deg); */
   transform: scale(1.4, 1.4) ;
   transition-duration: 350ms;
-  /* transform-origin: top left; */
   z-index: 0;
 }
 .back_link{
@@ -200,7 +191,6 @@ h4{
   font-size: 2rem;
   padding: .2rem 2rem 1rem .2rem;
   margin: .2rem;
-  /* filter: contrast(200%); */
 }
 .ul_bullets{
   list-style-type: circle;
@@ -250,7 +240,6 @@ h4{
 
 }
 footer{
-  margin: 1rem 0;
   width: 95vw;
   padding: 1rem;
   margin: 0.5rem 0;
@@ -262,7 +251,6 @@ fieldset{
 }
 form{
   grid-column: 1/5;
-  justify-content: center;
   margin-bottom: 3rem;
 }
 .form_list{
@@ -311,6 +299,7 @@ button {
   width: 40%;
   font-size: 1em;
   color: #0a0188;
+  background-color: #c2eabd;
   text-transform: capitalize;
   justify-self: center;
   transition-duration: 350ms;
