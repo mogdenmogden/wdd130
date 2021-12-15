@@ -29,7 +29,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding: 1rem;
+  padding: 0.2rem;
   color: white;
   font: 2em Open Sans;
   text-shadow: 3px 3px 6px #000000;
@@ -80,6 +80,7 @@ main{
 
 .intro{
   grid-column: 1/4;
+  margin: 0 3rem 0 0;
 }
 h1{
   margin: 0.5rem 0 0.5rem 0;
@@ -130,14 +131,6 @@ li.li_home::marker{
   transform: scale(1.25);
   transition-duration: 650ms;
 }
-.profile_pic:hover{
-  /* transform: rotateY(360deg); */
-  transform: scale(1.4, 1.4) ;
-  transition-duration: 350ms;
-  /* transform-origin: top left; */
-  z-index: 0;
-  
-}
 .label_gallery{
   background-color: white;
   text-align: center;
@@ -148,9 +141,13 @@ li.li_home::marker{
   padding: 0.5rem;
   overflow: hidden;
 }
-.profile_row a{
-  position:absolute; top: -20rem;/**/
-}  
+.anchor{
+  display: block;
+  position: relative;
+  top: -330px;
+  visibility: hidden;
+}
+
 .profile_row{
   grid-column: 1/5;
   display: grid;
@@ -159,13 +156,29 @@ li.li_home::marker{
   justify-items: center;
   position: relative;
 }
+.profile_row a{
+  position:absolute; /*top: -20rem;*/
+}  
 .profile_pic{
+  position: relative; /*top: 20rem;*/
   max-width: 15vw;
   padding: .5rem;
   margin: 1rem 0 0 0;
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.301);
   background-color: white;
-  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.profile_pic:hover{
+  /* transform: rotateY(360deg); */
+  transform: scale(1.4, 1.4) ;
+  transition-duration: 350ms;
+  /* transform-origin: top left; */
+  z-index: 0;
+}
+.back_link{
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 .profile_div{
   padding: .2rem .2rem 1rem .2rem;
